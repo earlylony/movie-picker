@@ -1,0 +1,69 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #14181c;
+  color: #fff;
+}
+
+.popup {
+  width: 300px;
+  padding: 12px;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.status {
+  margin: 0;
+  color: #9ab;
+  min-height: 2.5em;
+  line-height: 1.35;
+}
+
+.result {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.poster {
+  width: 140px;
+  border-radius: 6px;
+  justify-self: center;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.movie-link {
+  color: #40bcf4;
+  text-decoration: none;
+}
+
+.movie-link:hover {
+  text-decoration: underline;
+}
+
+.reroll {
+  margin-top: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px;
+  background: #00c030;
+  color: #08160b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

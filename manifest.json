@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Letterboxd Roulette",
+  "description": "Pick a random movie from the currently loaded Letterboxd watchlist page.",
+  "version": "0.1.0",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://letterboxd.com/*"],
+  "action": {
+    "default_title": "Letterboxd Roulette",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://letterboxd.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

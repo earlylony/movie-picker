@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Letterboxd Roulette</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1 class="title">Letterboxd Roulette</h1>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+
+      <section id="result" class="result hidden" aria-label="Random movie result">
+        <img id="poster" class="poster" alt="" />
+        <h2 id="movie-title" class="movie-title"></h2>
+        <a id="movie-link" class="movie-link" target="_blank" rel="noopener noreferrer">Open on Letterboxd</a>
+      </section>
+
+      <button id="reroll" class="reroll hidden" type="button">Pick another</button>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
